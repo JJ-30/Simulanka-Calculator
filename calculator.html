@@ -1,0 +1,44 @@
+<html> 
+
+<head>
+    <title> Calculator </title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+
+    <div style="text-align: center;">
+        <input type="button" onclick="userInput.push(1)" value="1">
+        <input type="button" onclick="userInput.push(2)" value="2">
+        <input type="button" onclick="userInput.push(3)" value="3">
+        <input type="button" onclick="userInput.push(4)" value="4">
+        <input type="button" onclick="userInput.push(5)" value="5">
+        <input type="button" onclick="userInput.push(6)" value="6">
+        <input type="button" onclick="userInput.push(7)" value="7">
+        <input type="button" onclick="userInput.push(8)" value="8">
+        <input type="button" onclick="userInput.push(9)" value="9">
+        <input type="button" onclick="userInput.push(0)" value="0">
+        <input type="button" onclick="pushElement(); numbers += 1" value="Next Number">
+        <input type="button" onclick="testing()" value="Click Me!"> <br> <br>
+        <input type="button" onclick="add()" value="Add">
+        <input type="button" onclick="subtract()" value="Subtract">
+        <input type="button" onclick="multiply()" value="Multiply">
+        <input type="button" onclick="divide()" value="Divide">
+        <input type="button" onclick="reset()" value="Reset">
+    </div> <br> <br>
+
+<div class="resultDiv">
+    <img class="border" src="fantasy border.png">
+    <p class="result" id="test" style="text-align: center; padding-top: 2.5%; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:xx-large;">Result</p>
+</div> <br>
+
+<div class="numbers">
+    <p class="number" id="numberA" style = "text-align: center; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:xx-large;"> Your first number</p>
+    <p class="number" id="numberB" style = "text-align: center; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:xx-large;"> Your second number</p>
+</div>
+
+</body>
+
+<html>
