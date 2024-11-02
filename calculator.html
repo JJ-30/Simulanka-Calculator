@@ -10,18 +10,18 @@
 
 
     <div style="text-align: center;">
-        <input type="button" onclick="userInput.push(1)" value="1">
-        <input type="button" onclick="userInput.push(2)" value="2">
-        <input type="button" onclick="userInput.push(3)" value="3">
-        <input type="button" onclick="userInput.push(4)" value="4">
-        <input type="button" onclick="userInput.push(5)" value="5">
-        <input type="button" onclick="userInput.push(6)" value="6">
-        <input type="button" onclick="userInput.push(7)" value="7">
-        <input type="button" onclick="userInput.push(8)" value="8">
-        <input type="button" onclick="userInput.push(9)" value="9">
-        <input type="button" onclick="userInput.push(0)" value="0">
-        <input type="button" onclick="pushElement(); numbers += 1" value="Next Number">
-        <input type="button" onclick="testing()" value="Click Me!"> <br> <br>
+        <input type="button" onclick="n += '1'; displayNumbers()" value="1">
+        <input type="button" onclick="n += '2'; displayNumbers()" value="2">
+        <input type="button" onclick="n += '3'; displayNumbers()" value="3">
+        <input type="button" onclick="n += '4'; displayNumbers()" value="4">
+        <input type="button" onclick="n += '5'; displayNumbers()" value="5">
+        <input type="button" onclick="n += '6'; displayNumbers()" value="6">
+        <input type="button" onclick="n += '7'; displayNumbers()" value="7">
+        <input type="button" onclick="n += '8'; displayNumbers()" value="8">
+        <input type="button" onclick="n += '9'; displayNumbers()" value="9">
+        <input type="button" onclick="n += '0'; displayNumbers()" value="0">
+        <input type="button" id="buttonA" onclick="pushElementA(); numbers += 1" value="Confirm Number A">
+        <input type="button" id="buttonB" onclick="pushElementB(); numbers += 1" value="Confirm Number B" disabled> <br> <br>
         <input type="button" onclick="add()" value="Add">
         <input type="button" onclick="subtract()" value="Subtract">
         <input type="button" onclick="multiply()" value="Multiply">
